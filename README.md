@@ -1,10 +1,10 @@
 
-Paper list
+## Key References on Representation Learning for Earth Observation
 
 - [Multi-Modal Self-Supervised Representation Learning for Earth Observation](https://ieeexplore.ieee.org/document/9553741?utm_source=chatgpt.com)
 - [CRA5: Extreme Compression of ERA5 for Portable Global Climate and Weather Research via an Efficient Variational Transformer](https://doi.org/10.48550/arXiv.2405.03376)
 
-##Key References on Learning Representations
+## Key References on Learning Representations
 The paper discusses advancements in self-supervised learning (SSL) and representation learning, citing several key works:
 
 - Balestriero et al. [5]: A comprehensive review of self-supervised learning techniques, covering various paradigms beyond ImageNet-based methods.
