@@ -36,14 +36,7 @@ Since ground-level self-supervised learning techniques might be suboptimal for E
 - [Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning](https://doi.org/10.48550/arXiv.2212.14532) (Scale-MAE): Proposes a scale-aware MAE that conditions on ground sampling distance (GSD).
 - [SatlasPretrain: A Large-Scale Dataset for Remote Sensing Image Understanding](https://doi.org/10.48550/arXiv.2211.15660) (SatlasPretrain): Constructs a multi-task dataset for optical satellite images, utilizing diverse data sources (e.g., OSM, Lidar scans).
 
-## Key References for Datasets M
--  MMEarth Dataset
-Vishal Nedungadi et al.
-MMEarth: A multi-modal, global-scale pretraining dataset containing 1.2 million locations with 12 aligned modalities.
-Dataset: Project Page
-Code: Data Collection | MP-MAE Training
-
-### Benchmarks for Earth Observation Representation Learning
+## Benchmarks for Earth Observation Representation Learning
 - [GEO-Bench: Toward Foundation Models for Earth Monitoring](https://doi.org/10.48550/arXiv.2306.03831) GEO-Bench
 Introduces GEO-Bench, a benchmark for evaluating self-supervised learning (SSL) methods on Earth Observation datasets.
 Covers classification and segmentation tasks on multiple Sentinel-2-based datasets.
@@ -51,7 +44,9 @@ GEO-Bench serves as an evaluation framework for models trained on MMEarth.
 -[BigEarthNet: A Large-Scale Benchmark Archive For Remote Sensing Image Understanding](https://doi.org/10.1109/IGARSS.2019.8900532). BigEarthNet: Large-Scale Datasets for Earth Observation (EO)
 Land Cover and Land Use Classification Datasets
 
-### A multi-label land cover classification dataset covering 10 European countries.
+### Key References for Datasets
+-  [MMEarth: Exploring Multi-Modal Pretext Tasks For Geospatial Representation Learning](https://doi.org/10.48550/arXiv.2405.02771). MMEarth: A multi-modal, global-scale pretraining dataset containing 1.2 million locations with 12 aligned modalities.
+
 - [EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification](https://doi.org/10.48550/arXiv.1709.00029). EuroSAT
 Contains ~590K Sentinel-2 images, with 43 land cover classes.
 Used in GEO-Bench as BigEarth20k (a smaller, harmonized version).
