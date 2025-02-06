@@ -44,59 +44,41 @@ Dataset: Project Page
 Code: Data Collection | MP-MAE Training
 
 ### Benchmarks for Earth Observation Representation Learning
-- Lacoste et al. (2023) [27] – GEO-Bench
+- [GEO-Bench: Toward Foundation Models for Earth Monitoring](https://doi.org/10.48550/arXiv.2306.03831) GEO-Bench
 Introduces GEO-Bench, a benchmark for evaluating self-supervised learning (SSL) methods on Earth Observation datasets.
 Covers classification and segmentation tasks on multiple Sentinel-2-based datasets.
 GEO-Bench serves as an evaluation framework for models trained on MMEarth.
--  Large-Scale Datasets for Earth Observation (EO)
+-[BigEarthNet: A Large-Scale Benchmark Archive For Remote Sensing Image Understanding](https://doi.org/10.1109/IGARSS.2019.8900532). BigEarthNet: Large-Scale Datasets for Earth Observation (EO)
 Land Cover and Land Use Classification Datasets
-Sumbul et al. (2019) [42] – BigEarthNet
 
 ### A multi-label land cover classification dataset covering 10 European countries.
-- Helber et al. (2019) [23] – EuroSAT
+- [EuroSAT: A Novel Dataset and Deep Learning Benchmark for Land Use and Land Cover Classification](https://doi.org/10.48550/arXiv.1709.00029). EuroSAT
 Contains ~590K Sentinel-2 images, with 43 land cover classes.
 Used in GEO-Bench as BigEarth20k (a smaller, harmonized version).
 
-- Zhu et al. (2020) [58] – So2Sat-LCZ42
+- [So2Sat LCZ42: A Benchmark Dataset for Global Local Climate Zones Classification](https://doi.org/10.48550/arXiv.1912.12171) – So2Sat-LCZ42
 A multi-class land cover classification dataset for Sentinel-2 imagery.
 Contains 27K images, classified into 10 categories (e.g., forests, rivers, residential areas).
 Used in GEO-Bench as EuroSat2k.
 
-- Lang et al. (2023) [28] – ETH-GCHM
+- [A high-resolution canopy height model of the Earth](https://doi.org/10.48550/arXiv.2204.08322). ETH-GCHM
 A multi-class classification dataset for urban local climate zones (LCZ).
 Contains 400K image pairs from Sentinel-1 (SAR) and Sentinel-2 (Optical).
 Used in GEO-Bench as So2Sat20k.
 Global Land Cover and Canopy Height Datasets
 
-- Brown et al. (2022) [8] – Dynamic World
-A 10m-resolution Global Canopy Height Map, derived from Sentinel-2 and GEDI LiDAR data.
-Used in MMEarth for pixel-level vegetation height information.
+- [Dynamic World, Near real-time global 10 m land use land cover mapping](https://doi.org/10.1038/s41597-022-01307-4) – Dynamic World
+A 10m-resolution Global Canopy Height Map, derived from Sentinel-2 and GEDI LiDAR data. Used in MMEarth for pixel-level vegetation height information.
 
-- ESA World Cover (2020) [43]
+- [BigEarthNet-MM: A Large Scale Multi-Modal Multi-Label Benchmark Archive for Remote Sensing Image Classification and Retrieval](https://doi.org/10.1109/MGRS.2021.3089174)
 A real-time global 10m land cover dataset, generated from Google Earth Engine and Sentinel-2 imagery.
 Contains 9 land cover categories.
 Used in MMEarth for land cover classification.
 
-- Hersbach et al. (2020) [20] – ERA5
-A 10m-resolution global land cover dataset, derived from Sentinel-1 and Sentinel-2 data.
-Contains 11 land cover categories.
-Used in MMEarth for land cover segmentation.
-Climate and Environmental Data
 
-- Dinerstein et al. (2017) [15] – RESOLVE Ecoregions
-A global climate reanalysis dataset, providing hourly meteorological data from 1950–present.
-Includes temperature, precipitation, and other atmospheric variables.
-Used in MMEarth for climate-related tasks.
-
-  
-- Wang et al. (2022) [51] – SSL4EO-S12
-Multi-Modal and Self-Supervised EO Datasets
-Defines 846 terrestrial ecoregions across 14 biomes.
-Used in MMEarth to categorize geographical regions.
-
-
+- [SatlasPretrain: A Large-Scale Dataset for Remote Sensing Image Understanding
+](https://doi.org/10.48550/arXiv.2211.15660) – SatlasPretrain
 A multi-modal, multi-temporal dataset for self-supervised learning in EO.
 Includes Sentinel-1 (SAR) and Sentinel-2 (Optical) imagery.
-- Bastani et al. (2023) [7] – SatlasPretrain
 
 
