@@ -24,11 +24,11 @@ The study highlights the importance of semantic representations and multi-modal 
 ## Key References on Self-Supervised Learning in EO
 Since ground-level self-supervised learning techniques might be suboptimal for EO data, recent work has explored unique EO-specific self-supervised learning approaches:
 ### Geolocation-Based SSL:
-- Ayush et al. [3] (GASSL): Introduces geography-aware self-supervised learning, leveraging EO data’s spatial-temporal structure to generate positive image pairs without artificial augmentations.
-- Klemmer et al. [25] (SatCLIP): Trains a Sentinel-2 encoder to learn location embeddings using a contrastive learning framework.
+- [Geography-Aware Self-Supervised Learning](https://doi.org/10.48550/arXiv.2011.09980) (GASSL): Introduces geography-aware self-supervised learning, leveraging EO data’s spatial-temporal structure to generate positive image pairs without artificial augmentations.
+- [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://doi.org/10.48550/arXiv.2311.17179) (SatCLIP): Trains a Sentinel-2 encoder to learn location embeddings using a contrastive learning framework.
 
 ### Time-Based SSL:
-- Manas et al. [29] (SeCo): Introduces Seasonal Contrast, a method that learns representations invariant to seasonal changes.
+- [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://doi.org/10.48550/arXiv.2103.16607) (SeCo): Introduces Seasonal Contrast, a method that learns representations invariant to seasonal changes.
 - Cong et al. [11] (SatMAE): Extends MIM to image time series, enabling temporal learning from EO data.
 - Tseng et al. [46] (Presto): A lightweight transformer model designed for multi-modal time series analysis, ignoring textural features.
 
