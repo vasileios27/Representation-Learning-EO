@@ -29,8 +29,8 @@ Since ground-level self-supervised learning techniques might be suboptimal for E
 
 ### Time-Based SSL:
 - [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://doi.org/10.48550/arXiv.2103.16607) (SeCo): Introduces Seasonal Contrast, a method that learns representations invariant to seasonal changes.
-- Cong et al. [11] (SatMAE): Extends MIM to image time series, enabling temporal learning from EO data.
-- Tseng et al. [46] (Presto): A lightweight transformer model designed for multi-modal time series analysis, ignoring textural features.
+- [SatMAE: Pre-training Transformers for Temporal and Multi-Spectral Satellite Imagery](https://doi.org/10.48550/arXiv.2207.08051) (SatMAE): Extends MIM to image time series, enabling temporal learning from EO data.
+- (Lightweight, Pre-trained Transformers for Remote Sensing Timeseries)[https://doi.org/10.48550/arXiv.2304.14065] (Presto): A lightweight transformer model designed for multi-modal time series analysis, ignoring textural features.
 
 ### Modality-Based SSL:
 - Reed et al. [38] (Scale-MAE): Proposes a scale-aware MAE that conditions on ground sampling distance (GSD).
