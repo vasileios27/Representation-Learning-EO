@@ -21,6 +21,21 @@ The study highlights the importance of semantic representations and multi-modal 
 - Radford et al. [37]: Introduces CLIP, a contrastive learning approach that learns from image-text pairs, influencing multi-modal representation learning.
 - Wei et al. [52]: Demonstrates masked feature prediction as an effective pretext task for learning high-quality representations.
 
+## Key References on Self-Supervised Learning in EO
+Since ground-level self-supervised learning techniques might be suboptimal for EO data, recent work has explored unique EO-specific self-supervised learning approaches:
+### Geolocation-Based SSL:
+- Ayush et al. [3] (GASSL): Introduces geography-aware self-supervised learning, leveraging EO data’s spatial-temporal structure to generate positive image pairs without artificial augmentations.
+- Klemmer et al. [25] (SatCLIP): Trains a Sentinel-2 encoder to learn location embeddings using a contrastive learning framework.
+
+### Time-Based SSL:
+- Manas et al. [29] (SeCo): Introduces Seasonal Contrast, a method that learns representations invariant to seasonal changes.
+- Cong et al. [11] (SatMAE): Extends MIM to image time series, enabling temporal learning from EO data.
+- Tseng et al. [46] (Presto): A lightweight transformer model designed for multi-modal time series analysis, ignoring textural features.
+
+### Modality-Based SSL:
+- Reed et al. [38] (Scale-MAE): Proposes a scale-aware MAE that conditions on ground sampling distance (GSD).
+- Bastani et al. [7] (SatlasPretrain): Constructs a multi-task dataset for optical satellite images, utilizing diverse data sources (e.g., OSM, Lidar scans).
+
 ## Key Reference on GEO-Bench
 The GEO-Bench dataset is a benchmark for evaluating Earth Observation (EO) models:
 
