@@ -36,7 +36,67 @@ Since ground-level self-supervised learning techniques might be suboptimal for E
 - Reed et al. [38] (Scale-MAE): Proposes a scale-aware MAE that conditions on ground sampling distance (GSD).
 - Bastani et al. [7] (SatlasPretrain): Constructs a multi-task dataset for optical satellite images, utilizing diverse data sources (e.g., OSM, Lidar scans).
 
-## Key Reference on GEO-Bench
-The GEO-Bench dataset is a benchmark for evaluating Earth Observation (EO) models:
+## Key References for Datasets M
+-  MMEarth Dataset
+Vishal Nedungadi et al.
+MMEarth: A multi-modal, global-scale pretraining dataset containing 1.2 million locations with 12 aligned modalities.
+Dataset: Project Page
+Code: Data Collection | MP-MAE Training
 
-- Lacoste et al. [27]: Introduces GEO-Bench, a standardized benchmark for Earth Observation models, designed to evaluate self-supervised learning methods across different EO tasks, including classification and segmentation.
+### Benchmarks for Earth Observation Representation Learning
+- Lacoste et al. (2023) [27] – GEO-Bench
+Introduces GEO-Bench, a benchmark for evaluating self-supervised learning (SSL) methods on Earth Observation datasets.
+Covers classification and segmentation tasks on multiple Sentinel-2-based datasets.
+GEO-Bench serves as an evaluation framework for models trained on MMEarth.
+-  Large-Scale Datasets for Earth Observation (EO)
+Land Cover and Land Use Classification Datasets
+Sumbul et al. (2019) [42] – BigEarthNet
+
+### A multi-label land cover classification dataset covering 10 European countries.
+- Helber et al. (2019) [23] – EuroSAT
+Contains ~590K Sentinel-2 images, with 43 land cover classes.
+Used in GEO-Bench as BigEarth20k (a smaller, harmonized version).
+
+- Zhu et al. (2020) [58] – So2Sat-LCZ42
+A multi-class land cover classification dataset for Sentinel-2 imagery.
+Contains 27K images, classified into 10 categories (e.g., forests, rivers, residential areas).
+Used in GEO-Bench as EuroSat2k.
+
+- Lang et al. (2023) [28] – ETH-GCHM
+A multi-class classification dataset for urban local climate zones (LCZ).
+Contains 400K image pairs from Sentinel-1 (SAR) and Sentinel-2 (Optical).
+Used in GEO-Bench as So2Sat20k.
+Global Land Cover and Canopy Height Datasets
+
+- Brown et al. (2022) [8] – Dynamic World
+A 10m-resolution Global Canopy Height Map, derived from Sentinel-2 and GEDI LiDAR data.
+Used in MMEarth for pixel-level vegetation height information.
+
+- ESA World Cover (2020) [43]
+A real-time global 10m land cover dataset, generated from Google Earth Engine and Sentinel-2 imagery.
+Contains 9 land cover categories.
+Used in MMEarth for land cover classification.
+
+- Hersbach et al. (2020) [20] – ERA5
+A 10m-resolution global land cover dataset, derived from Sentinel-1 and Sentinel-2 data.
+Contains 11 land cover categories.
+Used in MMEarth for land cover segmentation.
+Climate and Environmental Data
+
+- Dinerstein et al. (2017) [15] – RESOLVE Ecoregions
+A global climate reanalysis dataset, providing hourly meteorological data from 1950–present.
+Includes temperature, precipitation, and other atmospheric variables.
+Used in MMEarth for climate-related tasks.
+
+  
+- Wang et al. (2022) [51] – SSL4EO-S12
+Multi-Modal and Self-Supervised EO Datasets
+Defines 846 terrestrial ecoregions across 14 biomes.
+Used in MMEarth to categorize geographical regions.
+
+
+A multi-modal, multi-temporal dataset for self-supervised learning in EO.
+Includes Sentinel-1 (SAR) and Sentinel-2 (Optical) imagery.
+- Bastani et al. (2023) [7] – SatlasPretrain
+
+
