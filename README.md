@@ -7,19 +7,19 @@
 ## Key References on Learning Representations
 The paper discusses advancements in self-supervised learning (SSL) and representation learning, citing several key works:
 
-- Balestriero et al. [5]: A comprehensive review of self-supervised learning techniques, covering various paradigms beyond ImageNet-based methods.
-Dosovitskiy et al. [16]: Introduces Vision Transformers (ViT), a significant shift in learning representations for visual data.
-- He et al. [22]: Proposes Masked Autoencoders (MAE), which have become a foundation for self-supervised learning in vision tasks.
-- Oquab et al. [34]: Introduces DINOv2, a self-supervised learning approach that learns robust semantic features from images.
-- Assran et al. [2]: Explores joint-embedding architectures for learning representations, expanding the capabilities of contrastive learning.
+- [A cookbook of self-supervised learning](https://doi.org/10.48550/arXiv.2304.12210) : A comprehensive review of self-supervised learning techniques, covering various paradigms beyond ImageNet-based methods.
+- [An image is worth 16x16 words: Transformers for image recognition at scale](https://doi.org/10.48550/arXiv.2010.11929) : Introduces Vision Transformers (ViT), a significant shift in learning representations for visual data.
+- [Masked Autoencoders Are Scalable Vision Learners](https://doi.org/10.48550/arXiv.2111.06377) : Proposes Masked Autoencoders (MAE), which have become a foundation for self-supervised learning in vision tasks.
+- [DINOv2: Learning Robust Visual Features without Supervision](https://doi.org/10.48550/arXiv.2304.07193): Introduces DINOv2, a self-supervised learning approach that learns robust semantic features from images.
+- [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://doi.org/10.48550/arXiv.2301.08243): Explores joint-embedding architectures for learning representations, expanding the capabilities of contrastive learning.
 
 ## Key References on Semantic Representation Learning
 The study highlights the importance of semantic representations and multi-modal data for generalization:
 
-- Bachmann et al. [4]: Proposes MultiMAE, a multi-modal masked autoencoder for learning from RGB, depth, and segmentation maps.
-- Mizrahi et al. [31]: Introduces 4M, a multi-modal masked modeling framework, where multiple input modalities are tokenized before being processed by a transformer-based autoencoder.
-- Radford et al. [37]: Introduces CLIP, a contrastive learning approach that learns from image-text pairs, influencing multi-modal representation learning.
-- Wei et al. [52]: Demonstrates masked feature prediction as an effective pretext task for learning high-quality representations.
+- [MultiMAE: Multi-modal Multi-task Masked Autoencoders](https://doi.org/10.48550/arXiv.2204.01678): Proposes MultiMAE, a multi-modal masked autoencoder for learning from RGB, depth, and segmentation maps.
+- [4M: Massively Multimodal Masked Modeling](https://doi.org/10.48550/arXiv.2312.06647): Introduces 4M, a multi-modal masked modeling framework, where multiple input modalities are tokenized before being processed by a transformer-based autoencoder.
+- [Learning Transferable Visual Models From Natural Language Supervision](https://doi.org/10.48550/arXiv.2103.00020): Introduces CLIP, a contrastive learning approach that learns from image-text pairs, influencing multi-modal representation learning.
+- [Masked feature prediction for self-supervised visual pre-training](https://doi.org/10.48550/arXiv.2112.09133): Demonstrates masked feature prediction as an effective pretext task for learning high-quality representations.
 
 ## Key References on Self-Supervised Learning in EO
 Since ground-level self-supervised learning techniques might be suboptimal for EO data, recent work has explored unique EO-specific self-supervised learning approaches:
