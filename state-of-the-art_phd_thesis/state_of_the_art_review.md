@@ -8,18 +8,18 @@ in Remote Sensing [[4]](https://doi.org/10.1109/MGRS.2022.3198244), it is clear 
 
 <img src="Screenshot from 2025-02-13 18-53-37.png" alt="SSL statistics" width="400">
 
-<img src="Untitled Diagram-Page-8.drawio.png" alt="Model overview" width="600">
 
 
-## Problems They Aim to Solve
+## Problems We Aim to Solve
 
  - Scarcity of Labeled Data in Earth Observation (EO)
-
- - The use of self-supervise learing (SSL) in EO remains underexplored [[1]](https://ieeexplore.ieee.org/document/9553741?utm_source=chatgpt.com)
+ - The use of self-supervise learning (SSL) in EO remains underexplored [[1]](https://ieeexplore.ieee.org/document/9553741?utm_source=chatgpt.com)
+ - Outlier detection 
 
 We aim to 
  - learn EO domain representations for downstream tasks with small labelled data.
- - perform better from a basline solution of outlier detection
+ - perform better from a baseline solution of outlier detection
 
-With a carefully designed self-supervised problem, the model f gets the ability to capture high-level representations of the input data. Afterward, the model f can be further transferred to supervised downstream tasks for real-world applications.
+With a carefully designed self-supervised problem, model f gets the ability to capture high-level representations of the input data. Afterwards, the model f can be further transferred to supervised downstream tasks for real-world applications.
 
+<img src="Untitled Diagram-Page-8.drawio.png" alt="Model overview" width="600">
