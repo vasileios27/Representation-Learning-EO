@@ -18,11 +18,5 @@ We aim to
  - learn EO domain representations for downstream tasks with small labelled data.
  - perform better from a basline solution of outlier detection
 
-SSL
-methods can first learn potential useful knowledge from a
-large amount of unlabeled source data by solving pre-designed
-tasks (called pretext tasks), then transfer them to target tasks.
-Inspired by recent advances of SSL in applications like natural
-language processing [9], nature image classification [10] and
-object detection [11]
+With a carefully designed self-supervised problem, the model f gets the ability to capture high-level representations of the input data. Afterward, the model f can be further transferred to supervised downstream tasks for real-world applications.
 
