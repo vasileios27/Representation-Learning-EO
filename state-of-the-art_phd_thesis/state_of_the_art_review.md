@@ -6,6 +6,8 @@ In the Earth Observation (EO) domain, Machine Learning (ML) techniques have star
 To address these challenges in the work [[2]](https://doi.org/10.48550/arXiv.2005.07243) they have introduced an "Evidence Transfer" technique combined with a clustering algorithm, which is later used to classify extreme weather events. Similarly, self-supervised learning approaches have been explored, where representations are learned using pretext tasks and then transferred to downstream tasks. Studies such as [[3]](https://doi.org/10.48550/arXiv.2010.00882),[[1]](https://ieeexplore.ieee.org/document/9553741?utm_source=chatgpt.com) demonstrate that even with a small labelled dataset, these methods can achieve higher accuracy compared to models pre-trained on non-EO tasks. In the paper review of Self-Supervised Learning
 in Remote Sensing [[4]](https://doi.org/10.1109/MGRS.2022.3198244), it is clear that those techniques are vastly underexplored in the EO domain, compared to other fields. 
 
+<img src="Screenshot from 2025-02-13 18-53-37.png" alt="SSL statistics" width="400">
+
 <img src="Untitled Diagram-Page-8.drawio.png" alt="Model overview" width="600">
 
 
