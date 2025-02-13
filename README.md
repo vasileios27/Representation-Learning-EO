@@ -19,6 +19,7 @@ Since ground-level self-supervised learning techniques might be suboptimal for E
 The paper discusses advancements in self-supervised learning (SSL) and representation learning, citing several key works:
 
 - [A cookbook of self-supervised learning](https://doi.org/10.48550/arXiv.2304.12210) : A comprehensive review of self-supervised learning techniques, covering various paradigms beyond ImageNet-based methods.
+- [Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://doi.org/10.48550/arXiv.2006.07733): A new contrastive which utilise only positive pairs.
 - [An image is worth 16x16 words: Transformers for image recognition at scale](https://doi.org/10.48550/arXiv.2010.11929) : Introduces Vision Transformers (ViT), a significant shift in learning representations for visual data.
 - [Masked Autoencoders Are Scalable Vision Learners](https://doi.org/10.48550/arXiv.2111.06377) : Proposes Masked Autoencoders (MAE), which have become a foundation for self-supervised learning in vision tasks.
 - [DINOv2: Learning Robust Visual Features without Supervision](https://doi.org/10.48550/arXiv.2304.07193): Introduces DINOv2, a self-supervised learning approach that learns robust semantic features from images.
