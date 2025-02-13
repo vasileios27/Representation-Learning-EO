@@ -1,7 +1,7 @@
 # Summary of: Unsupervised Severe Weather Detection Via Joint Representation Learning Over Textual and Weather Data
 
 
-The paper they try to solve the problem which is stated as  "severe cases or anomalies are often characterised by deviation from the expected data distribution. However, non-deviating data samples may also implicitly lead to severe outcomes" 
+In the paper they try to solve the problem which is stated as  "severe cases or anomalies are often characterised by deviation from the expected data distribution. However, non-deviating data samples may also implicitly lead to severe outcomes" 
 
 The make the statment that "We posit that incorporating external or auxiliary information, such as the outcome of an
 external task or an observation, can improve the decision boundaries of an unsupervised detection
@@ -11,6 +11,8 @@ To establies their statment they increase the effectiveness of a clustering meth
 severe weather by learning augmented and linearly separable latent representations. They evaluate their
 solution against three individual cases of severe weather, namely windstorms, floods and tornado
 outbreaks. They employ the “[Evidence Transfer](https://doi.org/10.1109/IJCNN.2019.8852384)” methond.
+
+<img src="Screenshot from 2025-02-13 12-10-40.png" alt="Evidence Transfer" width="400">
 
 ## Set-up of the experiment
 
