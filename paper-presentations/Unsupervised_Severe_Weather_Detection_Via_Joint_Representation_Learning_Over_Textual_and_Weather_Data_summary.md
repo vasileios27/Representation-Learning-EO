@@ -12,7 +12,8 @@ severe weather by learning augmented and linearly separable latent representatio
 solution against three individual cases of severe weather, namely windstorms, floods and tornado
 outbreaks. They employ the “[Evidence Transfer](https://doi.org/10.1109/IJCNN.2019.8852384)” methond.
 
-<img src="Screenshot from 2025-02-13 12-10-40.png" alt="Evidence Transfer" width="400">
+
+<img src="Screenshot from 2025-02-13 12-10-40.png" alt="Evidence Transfer" width="600">
 
 ## Set-up of the experiment
 
