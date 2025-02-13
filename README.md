@@ -6,9 +6,14 @@
 - [Remote Sensing Image Scene Classification with Self-Supervised Paradigm under Limited Labeled Samples](https://doi.org/10.48550/arXiv.2010.00882)
 - [Unsupervised Severe Weather Detection Via Joint Representation Learning Over Textual and Weather Data](https://doi.org/10.48550/arXiv.2005.07243)
 
-## Key References on Self-Supervised Learning in Remote Sensing
 
+## Key References on Self-Supervised Learning in EO
+Since ground-level self-supervised learning techniques might be suboptimal for EO data, recent work has explored unique EO-specific self-supervised learning approaches:
+### Key References on Self-Supervised Learning in Remote Sensing
  - [Self-Supervised Learning in Remote Sensing: A review](https://doi.org/10.1109/MGRS.2022.3198244)
+### Geolocation-Based SSL:
+- [Geography-Aware Self-Supervised Learning](https://doi.org/10.48550/arXiv.2011.09980) (GASSL): Introduces geography-aware self-supervised learning, leveraging EO data’s spatial-temporal structure to generate positive image pairs without artificial augmentations.
+- [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://doi.org/10.48550/arXiv.2311.17179) (SatCLIP): Trains a Sentinel-2 encoder to learn location embeddings using a contrastive learning framework.
 
 ## Key References on Learning Representations
 The paper discusses advancements in self-supervised learning (SSL) and representation learning, citing several key works:
@@ -28,11 +33,6 @@ The study highlights the importance of semantic representations and multi-modal 
 - [Learning Transferable Visual Models From Natural Language Supervision](https://doi.org/10.48550/arXiv.2103.00020): Introduces CLIP, a contrastive learning approach that learns from image-text pairs, influencing multi-modal representation learning.
 - [Masked feature prediction for self-supervised visual pre-training](https://doi.org/10.48550/arXiv.2112.09133): Demonstrates masked feature prediction as an effective pretext task for learning high-quality representations.
 
-## Key References on Self-Supervised Learning in EO
-Since ground-level self-supervised learning techniques might be suboptimal for EO data, recent work has explored unique EO-specific self-supervised learning approaches:
-### Geolocation-Based SSL:
-- [Geography-Aware Self-Supervised Learning](https://doi.org/10.48550/arXiv.2011.09980) (GASSL): Introduces geography-aware self-supervised learning, leveraging EO data’s spatial-temporal structure to generate positive image pairs without artificial augmentations.
-- [SatCLIP: Global, General-Purpose Location Embeddings with Satellite Imagery](https://doi.org/10.48550/arXiv.2311.17179) (SatCLIP): Trains a Sentinel-2 encoder to learn location embeddings using a contrastive learning framework.
 
 ### Time-Based SSL:
 - [Seasonal Contrast: Unsupervised Pre-Training from Uncurated Remote Sensing Data](https://doi.org/10.48550/arXiv.2103.16607) (SeCo): Introduces Seasonal Contrast, a method that learns representations invariant to seasonal changes.
