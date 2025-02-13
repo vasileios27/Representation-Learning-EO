@@ -6,6 +6,10 @@
 - [Remote Sensing Image Scene Classification with Self-Supervised Paradigm under Limited Labeled Samples](https://doi.org/10.48550/arXiv.2010.00882)
 - [Unsupervised Severe Weather Detection Via Joint Representation Learning Over Textual and Weather Data](https://doi.org/10.48550/arXiv.2005.07243)
 
+## Key References on Self-Supervised Learning in Remote Sensing
+
+ - [Self-Supervised Learning in Remote Sensing: A review](https://doi.org/10.1109/MGRS.2022.3198244)
+
 ## Key References on Learning Representations
 The paper discusses advancements in self-supervised learning (SSL) and representation learning, citing several key works:
 
