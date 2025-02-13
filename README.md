@@ -13,6 +13,7 @@ The paper discusses advancements in self-supervised learning (SSL) and represent
 - [Masked Autoencoders Are Scalable Vision Learners](https://doi.org/10.48550/arXiv.2111.06377) : Proposes Masked Autoencoders (MAE), which have become a foundation for self-supervised learning in vision tasks.
 - [DINOv2: Learning Robust Visual Features without Supervision](https://doi.org/10.48550/arXiv.2304.07193): Introduces DINOv2, a self-supervised learning approach that learns robust semantic features from images.
 - [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://doi.org/10.48550/arXiv.2301.08243): Explores joint-embedding architectures for learning representations, expanding the capabilities of contrastive learning.
+- [Evidence Transfer](https://doi.org/10.1109/IJCNN.2019.8852384): Evidence Transfer is a deep learning method that incrementally manipulates the latent representations of an autoencoder according to external categorical evidence.
 
 ## Key References on Semantic Representation Learning
 The study highlights the importance of semantic representations and multi-modal data for generalization:
