@@ -23,3 +23,8 @@ We aim to
 With a carefully designed self-supervised problem, model f gets the ability to capture high-level representations of the input data. Afterwards, the model f can be further transferred to supervised downstream tasks for real-world applications.
 
 <img src="Untitled Diagram-Page-8.drawio.png" alt="Model overview" width="600">
+
+## Pre text tasks 
+ - contrastive (i.e. maximize mutual information between global-local feature pairs Instance discrimination)
+ - Generative (i.e. encode and reconstruct the input)
+ - Predictive (i.e. forecasting)
