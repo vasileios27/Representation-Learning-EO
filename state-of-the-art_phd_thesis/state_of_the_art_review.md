@@ -33,10 +33,4 @@ In contrastive learning approach, an image is
 transformed into two augmented views i.e. positive pairs and
 negative pairs; the model tries to bring the two positive pairs
 (same image views) closer while repulsing the negative pairs
-(non similar images) [6], [7]. With the success of contrastive
-learning, recently many non-contrastive learning architectures
-such as BYOL [1] and SimSiam [2] have been proposed. These
-model architectures eliminated the need for negative pairs and
-utilised only the positive pairs of the images to learn the stable
-invariant representations while also outperforming supervised
-learning.
+(non similar images). 
