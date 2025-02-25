@@ -44,6 +44,9 @@ The study highlights the importance of semantic representations and multi-modal 
 - [Scale-MAE: A Scale-Aware Masked Autoencoder for Multiscale Geospatial Representation Learning](https://doi.org/10.48550/arXiv.2212.14532) (Scale-MAE): Proposes a scale-aware MAE that conditions on ground sampling distance (GSD).
 - [SatlasPretrain: A Large-Scale Dataset for Remote Sensing Image Understanding](https://doi.org/10.48550/arXiv.2211.15660) (SatlasPretrain): Constructs a multi-task dataset for optical satellite images, utilizing diverse data sources (e.g., OSM, Lidar scans).
 
+### Normalize of data
+ - [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://doi.org/10.48550/arXiv.1502.03167)
+ - [How To Normalize Satellite Images for Deep Learning](https://medium.com/sentinel-hub/how-to-normalize-satellite-images-for-deep-learning-d5b668c885af)
 ## Benchmarks for Earth Observation Representation Learning
 - [GEO-Bench: Toward Foundation Models for Earth Monitoring](https://doi.org/10.48550/arXiv.2306.03831) GEO-Bench
 Introduces GEO-Bench, a benchmark for evaluating self-supervised learning (SSL) methods on Earth Observation datasets.
